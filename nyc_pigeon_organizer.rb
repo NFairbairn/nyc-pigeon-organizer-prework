@@ -13,6 +13,8 @@ def nyc_pigeon_organizer(data)
         if pigeon_list[name][key].nil?
               pigeon_list[name][key] = []
               pigeon_list[name][key] << pigeon_trait
+        else
+              pigeon_list[name][key] << pigeon_trait
           end
         end
     end
