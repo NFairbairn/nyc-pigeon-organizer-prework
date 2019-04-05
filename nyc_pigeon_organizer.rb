@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
         if pigeon_list[name].nil?
           pigeon_list[name] = {}
         else
-          pigeon_list[name] = key
+          pigeon_list[name][:color] = key
         end
             binding.pry
       end
