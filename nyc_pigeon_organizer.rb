@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   # write your code here!
   pigeon_list = {}
   data.each do |key, value|
-    value.each do |color, names|
+    value.each do |pigeon_trait, names|
       names.each do |name|
         if pigeon_list[name].nil?
           pigeon_list[name] = {}
