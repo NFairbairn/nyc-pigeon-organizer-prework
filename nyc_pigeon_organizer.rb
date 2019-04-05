@@ -16,7 +16,6 @@ def nyc_pigeon_organizer(data)
               pigeon_list[name][key] << pigeon_trait
           end
         end
-      end
     end
   end
   pigeon_list
