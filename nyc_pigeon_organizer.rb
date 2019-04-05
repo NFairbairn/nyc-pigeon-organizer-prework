@@ -9,7 +9,6 @@ def nyc_pigeon_organizer(data)
         if pigeon_list[name].nil?
           pigeon_list[name] = {}
         end
-        if key == :color
           if pigeon_list[name][key].nil?
               pigeon_list[name][key] = []
           else
