@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
         if key == :color
           if pigeon_list[name][key].nil?
             pigeon_list[name][key] = []
-              pigeon_list[name][key] = pigeon_trait
+              pigeon_list[name][key] << pigeon_trait
           end
         end
       end
