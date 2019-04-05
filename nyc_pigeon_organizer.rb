@@ -8,9 +8,9 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         if pigeon_list[name].nil?
           pigeon_list[name] = {}
-        else
-          pigeon_list[name] = key
         end
+        if pigeon_list[name][color].nil?
+          pigeon_list[name][color] = key
             binding.pry
       end
     end
