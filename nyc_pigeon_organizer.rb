@@ -12,7 +12,6 @@ def nyc_pigeon_organizer(data)
         if key == :color
           if pigeon_list[name][key].nil?
               pigeon_list[name][key] = color
-            binding.pry
           end
       end
     end
