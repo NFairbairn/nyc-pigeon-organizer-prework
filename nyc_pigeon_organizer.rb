@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
         if pigeon_list[name].nil?
           pigeon_list[name] = {}
         end
-        #binding.pry
+        binding.pry
       end
     end
   end
